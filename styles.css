@@ -1,0 +1,73 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: url(amigoi.jpg);
+    text-align: center;
+    margin: 0; /* Agregado para eliminar el margen por defecto del body */
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    font-size: 24px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#confettiButton {
+    background-color: #000000;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    font-size: 32px;
+}
+
+audio {
+    width: 100%;
+    position: relative;
+    margin-top: 60px; /* Ajusta el espacio entre el audio y el siguiente elemento */
+}
+
+p {
+    background-color: #000000;
+    position: relative;
+    font-size: 32px;
+    color: #fff;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.oculto {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 20px;
+    }
+
+    #confettiButton {
+        width: 40px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+}
