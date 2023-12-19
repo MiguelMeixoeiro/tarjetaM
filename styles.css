@@ -71,3 +71,13 @@ footer {
         font-size: 18px;
     }
 }
+
+header {
+    background-color: #000000;
+    color: #fff;
+    font-size: 32px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
