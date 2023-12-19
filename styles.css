@@ -58,7 +58,7 @@ footer {
 
 @media screen and (max-width: 600px) {
     header {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     #confettiButton {
@@ -72,12 +72,3 @@ footer {
     }
 }
 
-header {
-    background-color: #000000;
-    color: #fff;
-    font-size: 32px;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-}
